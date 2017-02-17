@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>融投行-我的账户</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<link href="style/main.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="images/logo-m.ico">
+	</head>
+
+	<body>
+		<!--页头部分-->
+		
+
+		<!--导航栏部分-->
+		
+
+		<!--banner广告部分-->
+		<div id="myCount-banner">
+			<div class="myCount-banner-img"></div>
+		</div>
+
+		<!--主体部分-->
+		<div id="myCount-article">
+			<p>我的账户&nbsp;&nbsp;&gt;&nbsp;&nbsp;<span id="abus-article-inner">账户总览</span></p>
+			<div class="abus-box both">
+				<div class="abus-box-left lf">
+					<p>我的账户</p>
+					<ul>
+						<li class="abus-hover"><a href="#count-sum" data-abus="abus">账户总览</a></li>
+						<li><a href="#count-trade" data-abus="abus">交易记录</a></li>
+						<li><a href="#count-id" data-abus="abus">身份认证</a></li>
+						<li><a href="#count-prepaid" data-abus="abus">立即充值</a></li>
+						<li><a href="#count-cash" data-abus="abus">立即提现</a></li>
+						<li><a href="#count-award" data-abus="abus">活动奖励</a></li>
+						<li><a href="#count-message" data-abus="abus">用户信息</a></li>
+						<li><a href="#count-password" data-abus="abus">密码管理</a></li>
+						<li><a href="#count-set" data-abus="abus">消息设置</a></li>
+						<li><a href="#count-inside" data-abus="abus">站内消息</a></li>
+					</ul>
+				</div>	
+				
+				<div class="mcon-box-right rt">
+					<div class="m-b-right-guide hover" id="count-sum">
+						<div class="m-b-right-guide-one">
+							<h2>HI , <span id="countDetails-phone"><!--18710111062--></span></h2>
+							<div class="m-b-right-guide-one-left lf">
+								<p>实名认证：<i></i>第三方支付认证：<i></i></p>
+								<p>帐户余额：<span  id="countDetails-balance"><!--237,000.00 --></span>元<input type="button" value="充值" id="countDetails-chong"><input type="button" value="提现"></p>
+							</div>
+							<div class="m-b-right-guide-one-right rt">
+								<p>总资产：<span  id="countDetails-sum"><!--1,455,000.00--> </span>元</p>
+								<div class="both">
+									<p class="lf">历史累计收益：<span id="countDetails-total" ><!--5,640.00 --></span>元</p>
+									<p class="rt">当前待收本息：<span id="countDetails-interest"><!--200.00--> </span>元</p>
+								</div>
+							</div>
+						</div>
+						<h3>信息统计</h3>
+						<div class="m-b-right-guide-two">
+							<p class="lf">用户注册时间：<b>2015-04-08</b></p>
+							<p class="lf">最后登录时间：<b>2015-04-08</b></p>
+							<p class="rt">银行卡已绑定 <span>1</span> 张<i></i></p>
+						</div>
+						<h3>收益走势</h3>
+						<div class="m-b-right-guide-three">
+							<!--<img src="images/safe-img-3.png">-->
+							<canvas id="count_canvas"></canvas>
+						</div>
+						<h3>项目推荐</h3>
+						<div class="m-b-right-guide-four">
+							<table>
+								<thead>
+									<tr>
+										<th>项目名称</th>
+										<th>投资周期</th>
+										<th>年化收益率</th>
+										<th>收益方式</th>
+										<th>融资金额</th>
+										<th>起投金额</th>
+										<th>可投金额</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>融投行产品001期</td>
+										<td>1个月</td>
+										<td>10%</td>
+										<td>按月付息，到期还本</td>
+										<td>¥300,000</td>
+										<td>¥100</td>
+										<td>¥240,000</td>
+										<td><input type="button" value="立即抢购"></td>
+									</tr>
+									<tr>
+										<td>融投行产品002期</td>
+										<td>4个月</td>
+										<td>12%</td>
+										<td>按月付息，到期还本</td>
+										<td>¥2,000,000</td>
+										<td>¥100</td>
+										<td>¥905,000</td>
+										<td><input type="button" value="立即抢购"></td>
+									</tr>
+									<tr>
+										<td>融投行产品003期</td>
+										<td>12个月</td>
+										<td>14%</td>
+										<td>按月付息，到期还本</td>
+										<td>¥5,000,000</td>
+										<td>¥200</td>
+										<td>¥2,945,000</td>
+										<td><input type="button" value="立即抢购"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="m-b-right-question" id="count-trade">交易记录</div>
+					<div class="m-b-right-account" id="count-id">身份认证</div>
+					<div class="m-b-right-prepaid" id="count-prepaid">立即充值</div>
+					<div class="m-b-right-knowledge" id="count-cash">立即提现</div>
+					<div class="m-b-right-term" id="count-award">活动奖励</div>
+					<div class="m-b-right-finnac" id="count-message">用户信息</div>
+					<div class="m-b-right-finnac" id="count-password">密码管理</div>
+					<div class="m-b-right-finnac" id="count-set">消息设置</div>
+					<div class="m-b-right-finnac" id="count-inside">站内消息</div>
+				</div>
+			</div>
+		</div>
+
+		<!--页脚部分-->
+		
+	</body>
+</html>
